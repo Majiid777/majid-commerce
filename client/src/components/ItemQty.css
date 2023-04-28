@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--white: #fff;
+	--black: #000;
+	--lightBlack: #2c2c2c;
+	--main: #ff6e68;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.details__incDec {
+	display: flex;
+}
+.dec,
+.inc,
+.quantity {
+	width: 60px;
+	height: 60px;
+	border: 1px solid silver;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.quantity {
+	border-left: none;
+	border-right: none;
+}
+.inc,
+.dec {
+	cursor: pointer;
+}

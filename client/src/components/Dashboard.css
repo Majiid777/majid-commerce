@@ -1,0 +1,63 @@
+.nave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-top: 9px;
+   
+  
+}
+.btn{
+    display: inline-block;
+    padding: .5rem 1.3rem;
+    font-size: .8rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 .2rem;
+    transition: .3s;
+   
+}
+
+.btn.solid, .btn.transparent:hover{
+    background-color: #fff;
+    color:#008080;
+}
+
+.btn.transparent, .btn.solid:hover{
+    background-color: #008080;
+    color: #fff;
+}
+Form.Control{
+    border-color: #fff;
+    display: block;
+    width: 50px;
+    background: #fff;  
+    }
+
+.one  {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    top: 0;
+    right: -10px;
+    border-radius: 50%;
+    background: none;
+
+}
+.searching{
+    background: #fff;
+    border-radius: 15px;
+    height: 10px;
+    position: relative;
+    border-color: #fff;
+}
+
+Form.Control:focus{
+    outline: none;
+
+}
+.lawej{
+    height: 10px;
+    width: 200px;
+}
